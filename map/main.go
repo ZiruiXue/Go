@@ -30,3 +30,11 @@ func printMap(c map[string]string) {
 		fmt.Println("Hex code for", key, "is", value)
 	}
 }
+
+
+// Compare map & struct
+// map - all key, all value in same type, all are indexed
+// reference type
+
+// structs - value can be different type, keys don't support indexing
+// value type
