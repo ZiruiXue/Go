@@ -51,6 +51,14 @@ func (p person) print() {
 	fmt.Printf("%+v", p)
 }
 
-func (s []string)updateSlice {
+
+// Array - can't be resized, rarely used directly, primitive date structure
+// when we use slice, go will create a array
+
+// ********
+// value types: int, float, string, bol, structs --- use pointers to change these things in a func
+// reference types: slices, maps, channels, pointers, functions 
+// ********
+func updateSlice(s []string)  {
 	s[0] = "Byt"
 }
